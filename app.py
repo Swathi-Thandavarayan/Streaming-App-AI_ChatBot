@@ -16,6 +16,7 @@ if "chat_history" not in st.session_state:
 
 st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
 st.title("🤖 Gemini Chatbot with LangChain")
+st.write("Ask Anything. Answer Everything.") 
 
 #3 getting response
 def get_response(query, chat_history):
